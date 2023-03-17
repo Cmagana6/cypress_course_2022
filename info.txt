@@ -1,0 +1,11 @@
+Bienvenidos al curso de Cypress
+
+Aca en este archivo se tendran cosas utiles.
+
+Pasos para instalar Cypress
+
+1. -npm init desde la consola
+
+2. npm install cypress --save-dev para instalar cypress desde npm
+
+3. node_module\.bin\cypress open Correr cypress como tal

@@ -1,0 +1,20 @@
+[
+     
+  {"name": "Carlos",
+    "email": "carlos@cypress.io",
+    "address1": "Address 1 Example",
+    "address2": "Address 2 Example"
+  },
+  {"name": "Timothy",
+    "email": "Timmy@cypress.io",
+    "address1": "Address 3 Example",
+    "address2": "Address 4 Example"
+  },
+  {"name": "Roberto",
+  "email": "robert@cypress.io",
+  "address1": "Address 5 Example",
+  "address2": "Address 6 Example"
+}
+
+]
+  

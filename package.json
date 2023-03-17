@@ -1,0 +1,36 @@
+{
+  "name": "cypress_curso_2022",
+  "version": "1.0.0",
+  "description": "Curso de Cypress 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Magana",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "@4tw/cypress-drag-drop": "^2.2.1",
+    "cypress": "^12.6.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-real-events": "^1.7.1",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.17.10"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/integration/[filepath]/**/*.{js,ts}",
+      "cypress/integration/[filepath].{js,ts}",
+      "cypress/support/step_definitions/**/*.{js,ts}"
+    ],
+    "json": {
+      "enabled": true
+    }
+  }
+}

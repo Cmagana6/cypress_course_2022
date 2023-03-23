@@ -2,3 +2,8 @@ node_modules/
 
 demos.txt
 demo2.txt
+
+videos/
+*.mp4
+*.jpg
+*.png

@@ -4,6 +4,7 @@ const createEsbuildPlugin = require('@badeball/cypress-cucumber-preprocessor/esb
 const addCucumberPreprocessorPlugin = require('@badeball/cypress-cucumber-preprocessor').addCucumberPreprocessorPlugin;
   
 module.exports = defineConfig({
+  projectId: "nfookf",
   chromeWebSecurity:false,
   pageLoadTimeout:60000,
   defaultCommandTimeout:2000,
